@@ -1,6 +1,6 @@
 from datetime import datetime
-from tarefas.tarefas import *
 from controllers import *
+from controllers.tarefas.tarefas import *
 
 if __name__ == "__main__":
     while True:
@@ -10,9 +10,10 @@ if __name__ == "__main__":
                 print(materia,"iniciou às",datainicial.time())
                 input("Enter quando terminar:")
                 datafinal  = datetime.now()
-                print("finalizado",materia,"às",datafinal.time())
+                print("Finalizado",materia,"às",datafinal.time())
                 tempodeestudo   =   datafinal-datainicial
-                print("estudo de",tempodeestudo,"\n")
+                adicionarponto(materia,tempodeestudo)
+                print("Estudo de",tempodeestudo,"\n")
                 break
         print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
         resposta = input(":").lower()

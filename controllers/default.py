@@ -1,0 +1,1 @@
+def adicionarponto(mateira,tempodeestudo):

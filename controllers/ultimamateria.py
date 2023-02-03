@@ -1,5 +1,5 @@
-position                =   0
-tarefaconcursoposition  =   0
-tarefaescola            =   0
-projetos                =   0  
-livros                  =   0
+position                        =   0
+positiontarefaconcurso          =   0
+positiontarefaescola            =   0
+positionprojetos                =   0  
+positionlivros                  =   0
