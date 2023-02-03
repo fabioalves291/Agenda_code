@@ -1,4 +1,4 @@
-tarefaconcurso = [  {"materia":"Língua Portugues","time":"None"},
+tarefaconcurso =    [{"materia":"Língua Portugues","time":"None"},
                     {"materia":"Racocínio Lógico","time":"None"},
                     {"materia":"Informática","time":None,},
                     {"materia":"Administração","time":None},
@@ -6,11 +6,11 @@ tarefaconcurso = [  {"materia":"Língua Portugues","time":"None"},
                     {"materia":"Direito Constitucional","time":None},
                     {"materia":"Direito Penal","time":None,},
                     {"materia":"Processual penal","time":None},
-                    {"materia":"Direito Admnistrativo"},
-                    {"materia":"Medicina Legal"}],
-tarefaescola    =   "materiasdaescola"
+                    {"materia":"Direito Admnistrativo","time":None},
+                    {"materia":"Medicina Legal","time":None}]
+tarefaescola    =   [{"materia":"materiasdaescola","time":None}]
 projetos        =   [{"materia":"Mydict","time":None},
-                    {"materia":"siteMYdict","time":None,},
-                    {"materia":"Calendario-Agenda","time":None}],
+                    {"materia":"siteMYdict","time":None},
+                    {"materia":"Calendario-Agenda","time":None}]
 livros          =   [{"livro":"informatica","time":None}]
 tarefas         =   [tarefaconcurso,tarefaescola,projetos,livros]

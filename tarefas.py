@@ -9,12 +9,12 @@ if __name__ == "__main__":
                 datainicial = datetime.now()
                 print(materia,"iniciou às",datainicial.time())
                 input("Enter quando terminar:")
-                datafinal = datetime.now()
+                datafinal  = datetime.now()
                 print("finalizado",materia,"às",datafinal.time())
-                print("estudo de",datafinal-datainicial,"\n")
-                tempoestudado = None
+                tempodeestudo   =   datafinal-datainicial
+                print("estudo de",tempodeestudo,"\n")
                 break
         print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
         resposta = input(":").lower()
-        None if resposta=="sim" or resposta=="" else print("saindo..."),exit()
+        None if resposta=="sim" or resposta=="" else print("saindo...")
 
