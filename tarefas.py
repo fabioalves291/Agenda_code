@@ -14,10 +14,10 @@ if __name__ == "__main__":
                 print("Finalizado",materia,"às",datafinal.time())
                 tempodeestudo   =   datafinal - datainicial
                 adicionartempo(materia,tempodeestudo)
-                adicionarpositionmateria()
+                adicionarpositionmateria(materia)
                 print("Estudo de",tempodeestudo,"\n")
                 break
-            adicionarposition()
+            adicionarposition(tarefa)
         print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
         resposta = input(":").lower()
         None if resposta=="sim" or resposta=="" else print("saindo...")

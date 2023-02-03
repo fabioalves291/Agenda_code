@@ -1,12 +1,14 @@
+from tarefas import *
 
-import tarefas
 def adicionartempo(materia,tempodeestudo):
-    print(tarefas)
+    #print(tarefas)
     print(materia)
     print(tempodeestudo)
-def adicionarpositionmateria():
+def adicionarpositionmateria(materia):
+    adicionar  =    ]
+    file = open("ultimamateria.py")
     pass
-def adicionarposition():
+def adicionarposition(tarefa):
     pass
 
 
