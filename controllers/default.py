@@ -5,8 +5,9 @@ def adicionartempo(materia,tempodeestudo):
     print(materia)
     print(tempodeestudo)
 def adicionarpositionmateria(materia):
-    adicionar  =    ]
-    file = open("ultimamateria.py")
+    print()  
+    file = open("tarefas/tarefas.py")
+    file.close()
     pass
 def adicionarposition(tarefa):
     pass
