@@ -8,17 +8,18 @@ if __name__ == "__main__":
         for materiageral in tarefas:
             for materia in materiageral:
                 datainicial     = datetime.now()
-                print(materia,"iniciou às",datainicial.time())
+                #print(materia,"iniciou às",datainicial.time())
                 input("Enter quando terminar:")
                 datafinal       = datetime.now()
-                print("Finalizado",materia,"às",datafinal.time())
+                #print("Finalizado",materia,"às",datafinal.time())
                 tempodeestudo   =   datafinal - datainicial
-                adicionartempo(materia,tempodeestudo)
-                adicionarpositionmateria(materia)
-                print("Estudo de",tempodeestudo,"\n")
+                #adicionartempo(materia,tempodeestudo)
+                #adicionarpositionmateria(materia)
+                #print("Estudo de",tempodeestudo,"\n")
                 break
-            adicionarposition(tarefa)
-        print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
+            print("oi")
+            adicionarposition((tarefas))
+        #print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
         resposta = input(":").lower()
         None if resposta=="sim" or resposta=="" else print("saindo...")
 
