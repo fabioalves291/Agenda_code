@@ -20,7 +20,3 @@ def adicionarpositionmateria(materia):
 
 def adicionarposition(tarefa):
     print(lerarquivo("controllers/tarefas/tarefas.py","r"))
-    
-
-
-
