@@ -1,17 +1,23 @@
 from tarefas import *
 
-def lerarquivo(endereço,modo):
-    file = open(endereço,modo,encoding="UTF-8")
+def lerarquivo(endereço):
     linhaslist= list()
+    file = open(endereço,'r',encoding="UTF-8")
     for linhas in file:
         fileread = file.readline()
         linhaslist.append(fileread)
-    print((linhaslist))
+        print(fileread)
+    
     file.close()
     return fileread
+
     
 def adicionartempo(materia,tempodeestudo):
     #print(tarefas)
+    lista = lerarquivo("controllers/tarefas/tarefas.py")
+    lista = str(lista)
+    lista = lista.split(";")
+    
     print(materia)
     print(tempodeestudo)
 
