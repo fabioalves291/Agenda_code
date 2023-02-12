@@ -8,7 +8,7 @@ if __name__ == "__main__":
         for materiageral in tarefas:
             for materia in materiageral:
                 datainicial     = datetime.now()
-                #print(materia,"iniciou às",datainicial.time())
+                print(materia,"iniciou às",datainicial.time())
                 input("Enter quando terminar:")
                 datafinal       = datetime.now()
                 #print("Finalizado",materia,"às",datafinal.time())
