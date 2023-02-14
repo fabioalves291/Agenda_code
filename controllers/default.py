@@ -14,10 +14,14 @@ def lerarquivo(endereço):
 def adicionartempo(materia,tempodeestudo):
     #print(tarefas)
     #time em segundos
-    lista = lerarquivo("controllers/tarefas/tarefas.py")
+
     time = materia["time"]
-    time=1
     print((int(time))+tempodeestudo,"segundos")
+    filedictarefas = open("controllers/tarefas/dictarefas.py","r")
+    fileread = filedictarefas.readlines()
+    for linhas in fileread:
+        print(linhas)
+        input()
 
 
 def adicionarpositionmateria(materia):
