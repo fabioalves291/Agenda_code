@@ -1,5 +1,7 @@
 from tarefas import *
-import datetime
+from controllers.tarefas.dictarefas import *
+from datetime import datetime, timedelta
+import time
 
 def lerarquivo(endereço):
     linhaslist= list()
@@ -11,10 +13,12 @@ def lerarquivo(endereço):
     
 def adicionartempo(materia,tempodeestudo):
     #print(tarefas)
+    #time em segundos
     lista = lerarquivo("controllers/tarefas/tarefas.py")
-    print((lista[1][28:-1]));input()
-    print(materia["materia"])
-    print(tempodeestudo+datetime(materia["time"]))
+    time = materia["time"]
+    time=1
+    print((int(time))+tempodeestudo,"segundos")
+
 
 def adicionarpositionmateria(materia):
     print() 
