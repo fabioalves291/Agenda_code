@@ -88,24 +88,7 @@ tarefas = {
             },         
     },
 
-
-
     "tarefa3":{
-        "tarefa0":{
-            "tipo":"projetos"               ,
-            "materia":"Mydict"              ,
-            "time":0                        ,
-            "position":1                    ,          
-            }, 
-        "tarefa1":{
-            "tipo":"projetos"                 ,
-            "materia":"assim falou zaratustra",
-            "time":0                        ,
-            "position":1                    ,          
-            },         
-    },
-
-    "tarefa4":{
         "tarefa0":{
             "tipo":"projetos"               ,
             "materia":"Mydict"              ,
@@ -127,4 +110,4 @@ tarefas = {
     }
 
 }
-print(tarefas["tarefa0"]["tarefa3"]["materia"])
+#print(tarefas["tarefa0"]["tarefa3"]["materia"])

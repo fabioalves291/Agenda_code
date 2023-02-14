@@ -3,7 +3,7 @@ tarefas = {
         "tarefa0":{
             "tipo":"concurso"               ,
             "materia":"Língua Portuguesa"   ,  
-            "time":5.349762                 ,
+            "time":0.581186                 ,
             "position":1                    ,          
             },
         "tarefa1":{

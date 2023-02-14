@@ -2,6 +2,7 @@ from tarefas import *
 from controllers.tarefas.dictarefas import *
 from datetime import datetime, timedelta
 import time
+import shutil
 
 def lerarquivo(endereço):
     linhaslist= list()
@@ -12,16 +13,38 @@ def lerarquivo(endereço):
 
     
 def adicionartempo(materia,tempodeestudo):
-    #print(tarefas)
     #time em segundos
+    print(tempodeestudosomado)
 
     time = materia["time"]
-    print((int(time))+tempodeestudo,"segundos")
-    filedictarefas = open("controllers/tarefas/dictarefas.py","r")
+    filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
     fileread = filedictarefas.readlines()
-    for linhas in fileread:
-        print(linhas)
-        input()
+    shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )
+    filedictarefas.close()
+    
+    filedictarefas = open("controllers/tarefas/dictarefas.py","w");filedictarefas.close()
+    encontroutipo = False
+    encontroumateria = False
+    for linha in fileread:
+        #print(linha)
+        if materia["tipo"] in linha:
+            encontroutipo = True
+            #print(linha[22:].replace(",",'').lstrip())
+        if str(materia["materia"]) in linha[22:]:
+            encontroumateria = True
+        if  "time" in linha and encontroutipo       and encontroumateria:
+            tempodeestudosomado = tempodeestudo + int(materia["time"]
+            ## criar funcao  pegar o numero para poder somar.
+            linha = (12*" "+fr'"time":{tempodeestudo}'+(((-len(f"time:{tempodeestudosomado}")+30)))*' '+','+"\n")
+            #input(":time")
+            encontroumateria = False
+            encontroutipo = False
+            filedictarefas.write(linha)
+        else:
+            filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+            filedictarefas.write(linha)
+    filedictarefas.close()
+
 
 
 def adicionarpositionmateria(materia):
