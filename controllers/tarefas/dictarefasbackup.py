@@ -3,7 +3,7 @@ tarefas = {
         "tarefa0":{
             "tipo":"concurso"               ,
             "materia":"Língua Portuguesa"   ,  
-            "time":0.581186                 ,
+            "time":0.19875                  ,
             "position":1                    ,          
             },
         "tarefa1":{
@@ -68,7 +68,7 @@ tarefas = {
         "tarefa0":{
             "tipo":"materias da escola"     ,
             "materia":"generica"            ,
-            "time":0.577868                 ,
+            "time":0.431926                 ,
             "position":1                    ,          
             },     
     },
@@ -77,7 +77,7 @@ tarefas = {
         "tarefa0":{
             "tipo":"livros"                 ,
             "materia":"Informatica"         ,
-            "time":0.385423                 ,
+            "time":0.344082                 ,
             "position":1                    ,          
             }, 
         "tarefa1":{
@@ -92,13 +92,13 @@ tarefas = {
         "tarefa0":{
             "tipo":"projetos"               ,
             "materia":"Mydict"              ,
-            "time":0.470645                 ,
+            "time":0.563505                 ,
             "position":1                    ,          
             }, 
         "tarefa1":{
             "tipo":"projetos"               ,
             "materia":"siteMydict"          ,
-            "time":0.470645                 ,
+            "time":0.563505                 ,
             "position":1                    ,          
             },       
         "tarefa2":{

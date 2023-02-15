@@ -14,7 +14,6 @@ def lerarquivo(endereço):
     
 def adicionartempo(materia,tempodeestudo):
     #time em segundos
-    print(tempodeestudosomado)
 
     time = materia["time"]
     filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
@@ -33,7 +32,8 @@ def adicionartempo(materia,tempodeestudo):
         if str(materia["materia"]) in linha[22:]:
             encontroumateria = True
         if  "time" in linha and encontroutipo       and encontroumateria:
-            tempodeestudosomado = tempodeestudo + int(materia["time"]
+            tempodeestudosomado = tempodeestudo + int(materia["time"])
+            print(linha[18:-1])
             ## criar funcao  pegar o numero para poder somar.
             linha = (12*" "+fr'"time":{tempodeestudo}'+(((-len(f"time:{tempodeestudosomado}")+30)))*' '+','+"\n")
             #input(":time")
