@@ -1,30 +1,31 @@
 from datetime import datetime, timedelta
 from controllers.default import *
-#from controllers.tarefas.tarefas import *
-from controllers.tarefas.dictarefas import *
+from tarefas.dictarefas import tarefas
 
+while True:
+    for materiageralchave, materiageralvalor in tarefas.items():
+        print("retornando primeiro for")
+        for materiachave, materiavalor in tarefas[materiageralchave].items():
+            print(materiachave,materiavalor)
+            print()
+            datainicial     = datetime.now()
+            #print(materiageralchave,materia["tipo"])
+            print(materiavalor["materia"],"iniciou às",datainicial.now())
+            print("tempo estudado:",materiavalor["time"])
+            input("Enter quando terminar:")
+            datafinal       = datetime.now()
+            print("Finalizado","às",datafinal)
+            tempodeestudo   =   datafinal - datainicial
+            print("Estudou",tempodeestudo,"\n")
+            tempoestudseg   = int(tempodeestudo.total_seconds())
+            adicionartempo(materiavalor,tempoestudseg,materiachave,materiageralchave)
+            #adicionarpositionmateria(materia)
+            break
 
-if __name__ == "__main__":
-    while True:
-        for materiageral in tarefas:
-            for materia in tarefas[materiageral].values():
-                datainicial     = datetime.now()
-                print(materiageral,materia["tipo"])
-                print(materia["materia"],"iniciou às",datainicial.now())
-                print("tempo estudado:",materia["time"])
-                input("Enter quando terminar:")
-                datafinal       = datetime.now()
-                print("Finalizado",materia["materia"],"às",datafinal)
-                tempodeestudo   =   datafinal - datainicial
-                print("Estudou",tempodeestudo,"\n")
-                
-                adicionartempo(materia,tempodeestudo.total_seconds())
-                #adicionarpositionmateria(materia)
-    
-                break
-            #print("oi")
-            #adicionarposition((tarefas))
-        #print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
-        resposta = input(":").lower()
-        None if resposta=="sim" or resposta=="" else print("saindo...")
+        #print("oi")
+        #adicionarposition((tarefas))
+    #print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
+    resposta = input("finalizado:").lower()
+    exit()
+
 
