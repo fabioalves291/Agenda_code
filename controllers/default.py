@@ -11,15 +11,14 @@ def lerarquivo(endereço):
 
 def adicionartempo(materia,temposomado,materiachave,materiageral):
     #time em segundos
-    print(materia,temposomado,materiachave,materiageral)
+    #print(materia,temposomado,materiachave,materiageral)
     #print(materia)
     filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
     fileread = filedictarefas.readlines()
     shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )
     filedictarefas.close()
     filedictarefasapagar = open("controllers/tarefas/dictarefas.py","w");filedictarefasapagar.close()
-    input("apagado")
-    
+
     encontroutipo = False
     encontroumateria = False
     filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
@@ -31,11 +30,8 @@ def adicionartempo(materia,temposomado,materiachave,materiageral):
         if str(materia["materia"]) in linha[22:]:
             encontroumateria = True
         if  "time" in linha and encontroutipo and encontroumateria:
-            #print(linha[18:-1])
-            ## criar funcao  pegar o numero para poder somar.
-            linha = (12*" "+fr'"time":{temposomado+materia["time"]}'+(((-len(f"time:{temposomado}")+30)))*' '+','+"\n")
-            print(linha)
-            input(":time")
+            linha = (12*" "+fr'"time":{temposomado+materia["time"]}'+(((-len(f"time:{temposomado}")+31)))*' '+','+"\n")
+            #input(linha)
             encontroumateria = False
             encontroutipo = False
             filedictarefas.write(linha)
@@ -49,3 +45,6 @@ def adicionarpositionmateria(materia):
 
 def adicionarposition(tarefa):
     print(lerarquivo("controllers/tarefas/tarefas.py","r"))
+def restartnodictarefas():
+    shutil.copyfile('controllers/tarefas/dictarefasdefault.py','controllers/tarefas/dictarefas.py' )
+

@@ -1,10 +1,10 @@
-def deftarefas():
+def defdictarefas():
     tarefas = {
         "tarefa0":{
             "tarefa0":{
                 "tipo":"concurso"               ,
                 "materia":"Língua Portuguesa"   ,  
-            "time":255                      ,
+            "time":63                         ,
                 "position":1                    ,          
                 },
             "tarefa1":{
@@ -29,25 +29,25 @@ def deftarefas():
                 "tipo":"concurso"               ,
                 "materia":"Noções de contabilidade",
                 "time":0                        ,
-                "position":1                    ,          
+                "position":0                    ,          
                 },
             "tarefa5":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Constitucional",
                 "time":0                        ,
-                "position":1                    ,          
+                "position":0                    ,          
                 }, 
             "tarefa6":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Penal",
                 "time":0                        ,
-                "position":1                    ,          
+                "position":0                    ,          
                 },      
             "tarefa7":{
                 "tipo":"concurso"               ,
                 "materia":"Processual penal",
                 "time":0                        ,
-                "position":1                    ,          
+                "position":0                    ,          
                 },
             "tarefa8":{
                 "tipo":"concurso"               ,
@@ -69,7 +69,7 @@ def deftarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-            "time":50                        ,
+            "time":39                         ,
                 "position":1                    ,          
                 },     
         },
@@ -78,14 +78,14 @@ def deftarefas():
             "tarefa0":{
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
-            "time":6                        ,
-                "position":1                    ,          
+            "time":16                         ,
+                "position":0                    ,          
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
                 "time":0                        ,
-                "position":1                    ,          
+                "position":0                    ,          
                 },         
         },
 
@@ -93,23 +93,23 @@ def deftarefas():
             "tarefa0":{
                 "tipo":"projetos"               ,
                 "materia":"Mydict"              ,
-            "time":43                        ,
+            "time":17                         ,
                 "position":1                    ,          
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"siteMydict"          ,
-            "time":43                        ,
-                "position":1                    ,          
+            "time":17                         ,
+                "position":0                    ,          
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
                 "time":0                        ,
-                "position":1                    ,          
+                "position":0                    ,          
                 },      
         }
 
     }
     return tarefas
-#print(tarefas["tarefa0"]["tarefa3"]["materia"])
+    #print(tarefas["tarefa0"]["tarefa3"]["materia"])
