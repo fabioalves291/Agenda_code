@@ -1,8 +1,15 @@
 from datetime import datetime, timedelta
-from controllers.default import *
-from tarefas.dictarefas import tarefas
+import importlib
 
-while True:
+from controllers.default import *
+import controllers.tarefas.dictarefas as dictarefas
+
+
+def adicionartempomateria():
+    importlib.reload(dictarefas)
+    #!!! registrar esse modulo (importlib.reload) no site e outras alternativas !!!
+    tarefas = dictarefas.deftarefas()
+    
     for materiageralchave, materiageralvalor in tarefas.items():
         print("retornando primeiro for")
         for materiachave, materiavalor in tarefas[materiageralchave].items():
@@ -20,12 +27,15 @@ while True:
             tempoestudseg   = int(tempodeestudo.total_seconds())
             adicionartempo(materiavalor,tempoestudseg,materiachave,materiageralchave)
             #adicionarpositionmateria(materia)
+            
             break
+    del tarefas
 
-        #print("oi")
-        #adicionarposition((tarefas))
+
+    #print("oi")
+    #adicionarposition((tarefas))
     #print("Ciclo finalizado\ndeseja reiniciar o ciclo?")
     resposta = input("finalizado:").lower()
-    exit()
+        
 
 

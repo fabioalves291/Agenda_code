@@ -3,7 +3,7 @@ import os
 if __name__ == "__main__":
     while True:
         input("iniciando:")
-        os.sys("p")
+        adicionartempomateria()
         input()
 
         
