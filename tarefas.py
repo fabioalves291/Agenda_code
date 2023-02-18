@@ -10,15 +10,18 @@ def adicionartempomateria():
     #!!! registrar esse modulo (importlib.reload) no site e outras alternativas !!!
     tarefas = dictarefas.defdictarefas()
     for materiageralchave, materiageralvalor in tarefas.items():
+        passouparaproximamateria    =    True
         for materiachave, materiavalor in tarefas[materiageralchave].items():
-            datainicial     = datetime.now()
-            print(materiavalor["materia"],"iniciou às",datainicial.now())
-            print("tempo estudado:",(int((int(materiavalor["time"]))/3600)),"horas e",int((int(materiavalor["time"])%3600)/60),"minutos")
-            input("Enter quando terminar:")
-            datafinal       = datetime.now()
-            print("Finalizado","às",datafinal)
-            tempodeestudo   =   datafinal - datainicial
-            print("Estudou",tempodeestudo,"\n")
-            tempoestudseg   = int(tempodeestudo.total_seconds())
-            adicionartempo(materiavalor,tempoestudseg,materiachave,materiageralchave)
-            break
+            if adicionarpositionmateria(materiavalor):
+                datainicial     = datetime.now()
+                print(materiavalor["materia"],"iniciou às",datainicial.now())
+                print("tempo estudado:",(int((int(materiavalor["time"]))/3600)),"horas e",int((int(materiavalor["time"])%3600)/60),"minutos")
+                input("Enter quando terminar:")
+                datafinal       = datetime.now()
+                print("Finalizado","às",datafinal)
+                tempodeestudo   =   datafinal - datainicial
+                print("Estudou",tempodeestudo,"\n")
+                tempoestudseg   = int(tempodeestudo.total_seconds())
+                adicionartempo(materiavalor,tempoestudseg,materiachave,materiageralchave)
+                
+                break
