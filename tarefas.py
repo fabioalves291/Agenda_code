@@ -23,5 +23,4 @@ def adicionartempomateria():
                 print("Estudou",tempodeestudo,"\n")
                 tempoestudseg   = int(tempodeestudo.total_seconds())
                 adicionartempo(materiavalor,tempoestudseg,materiachave,materiageralchave)
-                
                 break
