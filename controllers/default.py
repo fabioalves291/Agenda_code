@@ -94,7 +94,7 @@ def adicionarpositionmateria(materia):
 
         return  True
     else:
-        print("false")
+        #print("false")
         return False
 
 def verificarmaterinotset():
@@ -121,9 +121,14 @@ def setarmateriazerada(listmateriasAserSetado):
     encontroumateria = False
     filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
     for linha in fileread:
-        if  linha in listmateriasAserSetado:
+        #linha[20:-1] para pegar o tipo!
+        print(linha[20:-1])
+        if  linha[20:-1] in listmateriasAserSetado:
+            for tipos listmateriasAserSetado
+            input(linha)
             linha = (16*" "+fr'"position":1'+(((-len(f'"position:1"')+31)))*' '+','+"\n")
             filedictarefas.write(linha)
+
             del listmateriasAserSetado[0]
         else:
             filedictarefas.write(linha)

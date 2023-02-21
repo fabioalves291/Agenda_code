@@ -34,32 +34,32 @@ def defdictarefas():
             "tarefa5":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Constitucional",
-                "time":0                        ,
-            "position":1                     ,
+                "time":1                        ,
+                "position":0                     ,
                 }, 
             "tarefa6":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Penal",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":0                     ,
                 },      
             "tarefa7":{
                 "tipo":"concurso"               ,
                 "materia":"Processual penal",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":0                     ,
                 },
             "tarefa8":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Admnistrativo",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":0                     ,
                 },  
             "tarefa9":{
                 "tipo":"concurso"               ,
                 "materia":"Medicina Legal"      ,
-                "time":0                        ,
-                "position":0                    ,          
+                "time":2                        ,
+                "position":0                     ,
                 },
         
 
@@ -69,7 +69,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":19                       ,
+                "time":19                        ,
                 "position":0                     ,
                 },     
         },
@@ -105,8 +105,8 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
-                "time":2                        ,
-            "position":1                     ,
+                "time":3                        ,
+                "position":0                     ,
                 },      
         }
 
