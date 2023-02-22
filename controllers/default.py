@@ -107,7 +107,7 @@ def verificarmaterinotset():
             if materiavalor["position"]== 1:
                 positionsete = True
         if not positionsete:
-            listmateriasAserSetado.append(materiavalor["tipo"])
+            listmateriasAserSetado.append('"'+materiavalor["tipo"]+'"')
     return listmateriasAserSetado
 
 def setarmateriazerada(listmateriasAserSetado):
@@ -117,20 +117,33 @@ def setarmateriazerada(listmateriasAserSetado):
     filedictarefas.close()
     filedictarefasapagar = open("controllers/tarefas/dictarefas.py","w");filedictarefasapagar.close()
 
-    encontroutipo = False
-    encontroumateria = False
+   
     filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+    tipo = False;proximopositionseatr = False  
     for linha in fileread:
         #linha[20:-1] para pegar o tipo!
-        print(linha[20:-1])
-        if  linha[20:-1] in listmateriasAserSetado:
-            for tipos listmateriasAserSetado
-            input(linha)
+        #print(linha[23:-1])
+        if "position" in linha and proximopositionseatr:
             linha = (16*" "+fr'"position":1'+(((-len(f'"position:1"')+31)))*' '+','+"\n")
             filedictarefas.write(linha)
-
+            proximopositionseatr = False
+        # terminar aquiusaaaaaaaa
+        tipovalor=(linha[23:-2].strip())
+        if "tipo" in linha:
+            tipo = True
+        if  tipovalor in listmateriasAserSetado and tipo:
+            input(tipo +"if certo")
+            proximopositionseatr = True
+            cont=0
+            for tipodalista in listmateriasAserSetado:
+                if tipo == tipodalista:
+                    del listmateriasAserSetado[cont]
+                    input(linha)
+                cont+=1
             del listmateriasAserSetado[0]
+        
         else:
+            #print("escrevbendo padrao")
             filedictarefas.write(linha)
     filedictarefas.close()
 
