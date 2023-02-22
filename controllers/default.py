@@ -43,6 +43,7 @@ def adicionartempo(materia,temposomado,materiachave,materiageral):
     filedictarefas.close()
 
 def adicionarpositionmateria(materia):
+    importlib.reload(dictarefas)
     if str(materia["position"]) == '1':
         #print(materia,temposomado,materiachave,materiageral)
         #print(materia)
@@ -55,8 +56,6 @@ def adicionarpositionmateria(materia):
         encontroutipo = False
         encontroumateria = False
         filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
-        
-
 
         positionzerado = True
         setaroproximo   =  False
@@ -132,7 +131,8 @@ def setarmateriazerada(listmateriasAserSetado):
         if "tipo" in linha:
             tipo = True
         if  tipovalor in listmateriasAserSetado and tipo:
-            input(tipo +"if certo")
+            #resolver escrver na hora certa 
+            input(str(tipo)+" if certo")
             proximopositionseatr = True
             cont=0
             for tipodalista in listmateriasAserSetado:
