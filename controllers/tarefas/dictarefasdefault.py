@@ -79,7 +79,7 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                    ,          
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,

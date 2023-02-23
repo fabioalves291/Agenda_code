@@ -116,18 +116,23 @@ def setarmateriazerada(listmateriasAserSetado):
     filedictarefas.close()
     filedictarefasapagar = open("controllers/tarefas/dictarefas.py","w");filedictarefasapagar.close()
 
-   
-    filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
     tipo = False;proximopositionseatr = False  
     for linha in fileread:
         #linha[20:-1] para pegar o tipo!
         #print(linha[23:-1])
         if "position" in linha and proximopositionseatr:
             linha = (16*" "+fr'"position":1'+(((-len(f'"position:1"')+31)))*' '+','+"\n")
+            filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
             filedictarefas.write(linha)
+            filedictarefas.close()
             proximopositionseatr = False
-        # terminar aquiusaaaaaaaa
+        else:
+            #print("escrevbendo padrao")
+            filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+            filedictarefas.write(linha)
+            filedictarefas.close()
         tipovalor=(linha[23:-2].strip())
+        
         if "tipo" in linha:
             tipo = True
         if  tipovalor in listmateriasAserSetado and tipo:
@@ -136,16 +141,9 @@ def setarmateriazerada(listmateriasAserSetado):
             proximopositionseatr = True
             cont=0
             for tipodalista in listmateriasAserSetado:
-                if tipo == tipodalista:
+                if tipovalor == tipodalista:
                     del listmateriasAserSetado[cont]
-                    input(linha)
                 cont+=1
-            del listmateriasAserSetado[0]
-        
-        else:
-            #print("escrevbendo padrao")
-            filedictarefas.write(linha)
-    filedictarefas.close()
 
 def restartnodictarefas():
     shutil.copyfile('controllers/tarefas/dictarefasdefault.py','controllers/tarefas/dictarefas.py' )
