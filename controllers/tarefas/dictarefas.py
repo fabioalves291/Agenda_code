@@ -4,61 +4,61 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"concurso"               ,
                 "materia":"Língua Portuguesa"   ,  
-                "time":12                        ,
+                "time":17                        ,
                 "position":0                     ,
                 },
             "tarefa1":{
                 "tipo":"concurso"               ,
                 "materia":"Raciocinio Lógico"   ,
-                "time":20                       ,
+                "time":20                        ,
                 "position":0                     ,
                 },
             "tarefa2":{
                 "tipo":"concurso"               ,
                 "materia":"Informática"         ,
-                "time":11427                    ,
+                "time":11428                        ,
                 "position":1                     ,
                 },
             "tarefa3":{
                 "tipo":"concurso"               ,
                 "materia":"Administração"       ,
-                "time":1                        ,
+                "time":2                        ,
                 "position":0                     ,
                 },
             "tarefa4":{
                 "tipo":"concurso"               ,
                 "materia":"Noções de contabilidade",
-                "time":0                        ,
+                "time":5                        ,
                 "position":0                     ,
                 },
             "tarefa5":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Constitucional",
-                "time":3                        ,
+                "time":58                        ,
                 "position":0                     ,
                 }, 
             "tarefa6":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Penal",
-                "time":70                       ,
+                "time":72                        ,
                 "position":0                     ,
                 },      
             "tarefa7":{
                 "tipo":"concurso"               ,
                 "materia":"Processual penal",
-                "time":3                        ,
+                "time":27                        ,
                 "position":0                     ,
                 },
             "tarefa8":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Admnistrativo",
-                "time":1                        ,
+                "time":3                        ,
                 "position":0                     ,
                 },  
             "tarefa9":{
                 "tipo":"concurso"               ,
                 "materia":"Medicina Legal"      ,
-                "time":2                        ,
+                "time":3                        ,
                 "position":0                     ,
                 },
         
@@ -69,7 +69,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":10                        ,
+                "time":223                        ,
                 "position":1                   ,
                 },     
         },
@@ -78,7 +78,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
-                "time":3                        ,
+                "time":4                        ,
                 "position":1                     ,
                 }, 
             "tarefa1":{
@@ -106,7 +106,7 @@ def defdictarefas():
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
                 "time":0                        ,
-                "position":1                     ,
+                "position":0                     ,
                 },      
         }
 

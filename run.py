@@ -1,4 +1,6 @@
-from tarefas import *
+from tarefas import adicionartempomateria
+from controllers.default import *
+
 import os 
 if __name__ == "__main__":
     while True:
