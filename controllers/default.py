@@ -127,7 +127,7 @@ def setarmateriazerada(listmateriasAserSetado):
             filedictarefas.close()
             proximopositionseatr = False
         else:
-            #print("escrevbendo padrao")
+            #print("escrevendo padrao")
             filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
             filedictarefas.write(linha)
             filedictarefas.close()
@@ -135,9 +135,7 @@ def setarmateriazerada(listmateriasAserSetado):
         
         if "tipo" in linha:
             tipo = True
-        if  tipovalor in listmateriasAserSetado and tipo:
-            #resolver escrver na hora certa 
-            input(str(tipo)+" if certo")
+        if  tipovalor in listmateriasAserSetado and tipo:      
             proximopositionseatr = True
             cont=0
             for tipodalista in listmateriasAserSetado:
