@@ -107,7 +107,13 @@ def defdictarefas():
                 "materia":"Calendario-agenda"   ,
                 "time":0                        ,
                 "position":0                    ,          
-                },      
+                },   
+            "tarefa2":{
+                "tipo":"projetos"               ,
+                "materia":"SiteManiadeRenda"    ,
+                "time":0                        ,
+                "position":0                    ,          
+                },   
         }
 
     }
