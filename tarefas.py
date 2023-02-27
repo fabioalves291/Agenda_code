@@ -32,7 +32,12 @@ def adicionartempomateria():
                     file = open("contestudando/contadorestudando.py","w")
                     file.write(fr"def contadorestudando():contmateriaestudando = {cont+1}; return contmateriaestudando ")
                     file.close()
-                    input(">> estudar proxima materia do ciclo?")
+                    inputcontinuar = input(">> estudar proxima materia do ciclo?")
+                    if inputcontinuar.lower() in"  simyes":
+                        pass
+                    else: 
+                        return False
+
                     break
         cont+=1
     file = open("contestudando/contadorestudando.py","w")
