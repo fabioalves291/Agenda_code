@@ -5,13 +5,13 @@ def defdictarefas():
                 "tipo":"concurso"               ,
                 "materia":"Língua Portuguesa"   ,  
                 "time":1036                     ,
-                "position":1                    ,
+                "position":0                     ,
                 },
             "tarefa1":{
                 "tipo":"concurso"               ,
                 "materia":"Raciocinio Lógico"   ,
                 "time":0                        ,
-                "position":0                    ,
+                "position":1                     ,
                 },
             "tarefa2":{
                 "tipo":"concurso"               ,
