@@ -1,1 +1,0 @@
-def contestudando():contmateriaestudando = 1;return contmateriaestudando 

@@ -47,6 +47,7 @@ def adicionarpositionmateria(materia):
     if str(materia["position"]) == '1':
         #print(materia,temposomado,materiachave,materiageral)
         #print(materia)
+        input("iniciar estudo da materia:"+materia["materia"])
         filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
         fileread = filedictarefas.readlines()
         shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )

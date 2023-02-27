@@ -1,1 +1,1 @@
-from contestudando import *
+import contestudando.contadorestudando
