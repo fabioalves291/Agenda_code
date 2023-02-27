@@ -4,20 +4,20 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"concurso"               ,
                 "materia":"Língua Portuguesa"   ,  
-                "time":20                       ,
-                "position":0                     ,
+                "time":1036                     ,
+                "position":1                    ,
                 },
             "tarefa1":{
                 "tipo":"concurso"               ,
                 "materia":"Raciocinio Lógico"   ,
                 "time":0                        ,
-                "position":1                     ,
+                "position":0                    ,
                 },
             "tarefa2":{
                 "tipo":"concurso"               ,
                 "materia":"Informática"         ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":0                     ,
                 },
             "tarefa3":{
                 "tipo":"concurso"               ,
@@ -79,7 +79,7 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
                 "time":0                        ,
-                "position":1                    ,          
+                "position":1                   ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
@@ -107,8 +107,30 @@ def defdictarefas():
                 "materia":"Calendario-agenda"   ,
                 "time":0                        ,
                 "position":0                    ,          
-                },      
-        }
+                },   
+            "tarefa2":{
+                "tipo":"projetos"               ,
+                "materia":"SiteManiadeRenda"    ,
+                "time":0                        ,
+                "position":0                    ,          
+                },   
+            "tarefa2":{
+                "tipo":"projetos"               ,
+                "materia":"Secret"              ,
+                "time":0                        ,
+                "position":0                    ,          
+                }, 
+            
+        },
+        "tarefa4":{
+            "tarefa1":{
+                "tipo":"Linguas"               ,
+                "materia":"Inglês"    ,
+                "time":0                        ,
+                "position":1                   ,
+                }, 
+        },
+        
 
     }
     return tarefas

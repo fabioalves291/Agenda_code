@@ -15,14 +15,14 @@ def adicionartempomateria():
     for materiageralchave, materiageralvalor in tarefas.items():
         passouparaproximamateria    =    True
         importlib.reload(contestudando)
-        print(cont == contestudando.contadorestudando(),cont,contestudando.contadorestudando())
+        #print(cont == contestudando.contadorestudando(),cont,contestudando.contadorestudando())
         if cont == contestudando.contadorestudando():
             for materiachave, materiavalor in tarefas[materiageralchave].items():
                 if adicionarpositionmateria(materiavalor):
                     datainicial     = datetime.now()
                     print(materiavalor["materia"],"iniciou às",datainicial.now())
-                    print("tempo estudado:",(int((int(materiavalor["time"]))/3600)),"horas e",int((float(materiavalor["time"])%3600)*60),"minutos")
-                    input("Enter quando terminar:")
+                    print("tempo estudado:",(int((int(materiavalor["time"]))/3600)),"horas e",int((float(materiavalor["time"])%3600)/60),"minutos")
+                    input(">> Enter quando terminar:")
                     datafinal       = datetime.now()
                     print("Finalizado","às",datafinal)
                     tempodeestudo   =   datafinal - datainicial
@@ -32,7 +32,7 @@ def adicionartempomateria():
                     file = open("contestudando/contadorestudando.py","w")
                     file.write(fr"def contadorestudando():contmateriaestudando = {cont+1}; return contmateriaestudando ")
                     file.close()
-                    input(":estudar proxima materia do ciclo?")
+                    input(">> estudar proxima materia do ciclo?")
                     break
         cont+=1
     file = open("contestudando/contadorestudando.py","w")

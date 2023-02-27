@@ -4,7 +4,7 @@ from controllers.default import *
 import os 
 if __name__ == "__main__":
     while True:
-        input("iniciando:")
+        input("iniciando...")
         print(verificarmaterinotset(),'ciclos finalizados')
         setarmateriazerada(verificarmaterinotset())
         adicionartempomateria()

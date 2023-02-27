@@ -47,7 +47,7 @@ def adicionarpositionmateria(materia):
     if str(materia["position"]) == '1':
         #print(materia,temposomado,materiachave,materiageral)
         #print(materia)
-        input("iniciar estudo da materia:"+materia["materia"])
+        input((">> iniciar estudo da materia tipo "+materia["tipo"]+" topico "+materia["materia"]+':'))
         filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
         fileread = filedictarefas.readlines()
         shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )
@@ -104,7 +104,8 @@ def verificarmaterinotset():
     for materiageralchave, materiageralvalor in tarefas.items():
         positionsete = False
         for materiachave, materiavalor in tarefas[materiageralchave].items():
-            if materiavalor["position"]== 1:
+            
+            if materiavalor["position"]==1:
                 positionsete = True
         if not positionsete:
             listmateriasAserSetado.append('"'+materiavalor["tipo"]+'"')
