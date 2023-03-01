@@ -10,7 +10,7 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"concurso"               ,
                 "materia":"Raciocinio Lógico"   ,
-                "time":4                        ,
+                "time":1                        ,
                 "position":0                     ,
                 },
             "tarefa2":{
@@ -69,7 +69,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":0                        ,
+                "time":1824                     ,
                 "position":1                   ,
                 },     
         },
@@ -79,13 +79,13 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
                 "time":0                        ,
-                "position":1                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },         
         },
 
