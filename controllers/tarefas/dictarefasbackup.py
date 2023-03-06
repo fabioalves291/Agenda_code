@@ -78,7 +78,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
-                "time":0                        ,
+                "time":3020                     ,
                 "position":0                     ,
                 }, 
             "tarefa1":{
@@ -93,14 +93,14 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"projetos"               ,
                 "materia":"Mydict"              ,
-                "time":0                        ,
-                "position":1                    ,          
+                "time":2531                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"siteMydict"          ,
-                "time":0                        ,
-                "position":0                    ,          
+                "time":2531                     ,
+                "position":1                     ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,
