@@ -22,7 +22,11 @@ def adicionartempomateria():
                     datainicial     = datetime.now()
                     print(materiavalor["materia"],"iniciou às",datainicial.now())
                     print("tempo estudado:",(int((int(materiavalor["time"]))/3600)),"horas e",int((float(materiavalor["time"])%3600)/60),"minutos")
-                    input(">> Enter quando terminar:")
+                    v = True
+                    while v:
+                        input(">> Enter quando terminar:")
+                        ve = input(">> tem certeza? você estudou:"+str(datafinal - datainicial) )
+                        if ve[0] in  " sSyYs":v = False
                     datafinal       = datetime.now()
                     print("Finalizado","às",datafinal)
                     tempodeestudo   =   datafinal - datainicial
