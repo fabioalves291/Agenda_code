@@ -127,7 +127,7 @@ def defdictarefas():
                 "tipo":"Linguas"               ,
                 "materia":"Inglês"    ,
                 "time":0                        ,
-                "position":1                   ,
+                "position":0                     ,
                 }, 
         },
 

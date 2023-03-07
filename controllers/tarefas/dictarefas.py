@@ -126,7 +126,7 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Linguas"               ,
                 "materia":"Inglês"    ,
-                "time":0                        ,
+                "time":5406                     ,
                 "position":0                     ,
                 }, 
         },

@@ -1,1 +1,1 @@
-def contadorestudando():contmateriaestudando = 4; return contmateriaestudando 
+def contadorestudando():contmateriaestudando = 5; return contmateriaestudando 
