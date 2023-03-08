@@ -22,14 +22,14 @@ def defdictarefas():
             "tarefa3":{
                 "tipo":"concurso"               ,
                 "materia":"Administração"       ,
-                "time":0                        ,
-                "position":1                     ,
+                "time":11                       ,
+                "position":0                     ,
                 },
             "tarefa4":{
                 "tipo":"concurso"               ,
                 "materia":"Noções de contabilidade",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },
             "tarefa5":{
                 "tipo":"concurso"               ,
@@ -69,8 +69,8 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":1824                     ,
-                "position":1                   ,
+                "time":1826                        ,
+                "position":0                     ,
                 },     
         },
 
@@ -79,13 +79,13 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
                 "time":3020                     ,
-                "position":0                     ,
+                "position":1                     ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
-                "time":0                        ,
-                "position":1                     ,
+                "time":1                        ,
+                "position":0                     ,
                 },         
         },
 
@@ -94,19 +94,19 @@ def defdictarefas():
                 "tipo":"projetos"               ,
                 "materia":"Mydict"              ,
                 "time":2531                     ,
-                "position":0                     ,
+                "position":1                     ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"siteMydict"          ,
-                "time":2531                     ,
-                "position":1                     ,
+                "time":4841                     ,
+                "position":0                     ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },   
             "tarefa2":{
                 "tipo":"projetos"               ,
