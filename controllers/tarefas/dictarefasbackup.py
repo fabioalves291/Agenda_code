@@ -16,7 +16,7 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"concurso"               ,
                 "materia":"Informática"         ,
-                "time":0                        ,
+                "time":3720                     ,
                 "position":1                     ,
                 },
             "tarefa3":{

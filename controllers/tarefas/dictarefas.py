@@ -16,14 +16,14 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"concurso"               ,
                 "materia":"Informática"         ,
-                "time":0                        ,
-                "position":1                     ,
+                "time":900                      ,
+                "position":0                     ,
                 },
             "tarefa3":{
                 "tipo":"concurso"               ,
                 "materia":"Administração"       ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },
             "tarefa4":{
                 "tipo":"concurso"               ,
