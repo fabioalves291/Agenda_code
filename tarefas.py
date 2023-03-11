@@ -26,7 +26,7 @@ def adicionartempomateria():
                     while v:
                         input(">> Enter quando terminar:")
                         datafinal       = datetime.now()
-                        ve = str(input(">> tem certeza? você estudou:"+str(datafinal - datainicial) ))
+                        ve = str(input(">> tem certeza? você estudou "+str(datafinal - datainicial)+"?:"))
                         try:
                             if ve[0] in  " sSyYs":v = False
                         except IndexError:

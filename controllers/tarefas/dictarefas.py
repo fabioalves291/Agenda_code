@@ -28,14 +28,14 @@ def defdictarefas():
             "tarefa4":{
                 "tipo":"concurso"               ,
                 "materia":"Noções de contabilidade",
-                "time":0                        ,
-                "position":1                     ,
+                "time":2453                     ,
+                "position":0                     ,
                 },
             "tarefa5":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Constitucional",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 }, 
             "tarefa6":{
                 "tipo":"concurso"               ,
@@ -127,7 +127,7 @@ def defdictarefas():
                 "tipo":"Linguas"               ,
                 "materia":"Inglês"    ,
                 "time":7500                     ,
-                "position":0                     ,
+                "position":1                   ,
                 }, 
         },
 
