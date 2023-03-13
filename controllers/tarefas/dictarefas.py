@@ -51,18 +51,54 @@ def defdictarefas():
                 },
             "tarefa8":{
                 "tipo":"concurso"               ,
+                "materia":"Direito Militar"     ,
+                "time":0                        ,
+                "position":0                    ,          
+                },
+
+            "tarefa9":{
+                "tipo":"concurso"               ,
                 "materia":"Direito Admnistrativo",
                 "time":0                        ,
                 "position":0                    ,          
                 },  
-            "tarefa9":{
+            "tarefa10":{
                 "tipo":"concurso"               ,
                 "materia":"Medicina Legal"      ,
                 "time":0                        ,
                 "position":0                    ,          
                 },
-        
-
+            "tarefa11":{
+                "tipo":"concurso"               ,
+                "materia":"Sociologia"          ,
+                "time":0                        ,
+                "position":0                    ,          
+                },
+            "tarefa12":{
+                "tipo":"concurso"               ,
+                "materia":"Legislação Extravagante",
+                "time":0                        ,
+                "position":0                    ,          
+                },
+            "tarefa13":{
+                "tipo":"concurso"               ,
+                "materia":"Geografia da paraiba",
+                "time":0                        ,
+                "position":0                    ,          
+                },
+            "tarefa14":{
+                "tipo":"concurso"               ,
+                "materia":"geografia da paraiba",
+                "time":0                        ,
+                "position":0                    ,          
+                },
+            "tarefa13":{
+                "tipo":"concurso"               ,
+                "materia":"Lingua extrangeira"  ,
+                "time":0                        ,
+                "position":0                    ,          
+                },
+            
 
         },      
         "tarefa1":{
