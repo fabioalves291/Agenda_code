@@ -68,7 +68,7 @@ def adicionarpositionmateria(materia):
             if  "position" in linha and positionzerado and encontroutipo and encontroumateria:
                 linha = (16*" "+fr'"position":0'+(((-len("position:0")+31)))*' '+','+"\n")
                 #input(linha)
-                filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+                filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
                 filedictarefas.write(linha)
                 encontroumateria = False
                 encontroutipo   = False

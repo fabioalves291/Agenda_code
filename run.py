@@ -17,8 +17,7 @@ except  Exception as e :
     print(e)
     logging.basicConfig(filename="log/log.log",level=logging.DEBUG,filemode="a")
     logger = logging.getLogger()
-    logger.info(e)
-
+    logger.exception(str(e))
 
     
 
