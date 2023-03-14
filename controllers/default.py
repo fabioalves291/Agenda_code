@@ -4,26 +4,19 @@ import shutil
 import importlib
 import tarefas.dictarefas as dictarefas
 
-def lerarquivo(endereço):
-    linhaslist= list()
-    file = open(endereço,'r',encoding="UTF-8")
-    linhaslist=file.read().split(";")  
-    file.close()
-    return linhaslist
-
 def adicionartempo(materia,temposomado,materiachave,materiageral):
     #time em segundos
     #print(materia,temposomado,materiachave,materiageral)
     #print(materia)
-    filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
+    filedictarefas = open("tarefas/dictarefas.py","r",encoding="UTF-8")
     fileread = filedictarefas.readlines()
-    shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )
+    shutil.copyfile('tarefas/dictarefas.py','tarefas/dictarefasbackup.py' )
     filedictarefas.close()
-    filedictarefasapagar = open("controllers/tarefas/dictarefas.py","w");filedictarefasapagar.close()
+    filedictarefasapagar = open("tarefas/dictarefas.py","w");filedictarefasapagar.close()
 
     encontroutipo = False
     encontroumateria = False
-    filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+    filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
     for linha in fileread:
         #print(linha)
         if materia["tipo"] in linha:
@@ -38,7 +31,7 @@ def adicionartempo(materia,temposomado,materiachave,materiageral):
             encontroutipo = False
             filedictarefas.write(linha)
         else:
-            filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+            filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
             filedictarefas.write(linha)
     filedictarefas.close()
 
@@ -52,15 +45,15 @@ def adicionarpositionmateria(materia):
             pass
         else: 
             return False
-        filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
+        filedictarefas = open("tarefas/dictarefas.py","r",encoding="UTF-8")
         fileread = filedictarefas.readlines()
-        shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )
+        shutil.copyfile('tarefas/dictarefas.py','tarefas/dictarefasbackup.py' )
         filedictarefas.close()
-        filedictarefasapagar = open("controllers/tarefas/dictarefas.py","w");filedictarefasapagar.close()
+        filedictarefasapagar = open("tarefas/dictarefas.py","w");filedictarefasapagar.close()
 
         encontroutipo = False
         encontroumateria = False
-        filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+        filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
 
         positionzerado = True
         setaroproximo   =  False
@@ -86,12 +79,12 @@ def adicionarpositionmateria(materia):
                 positionzerado  = False
                 setaroproximo   = False
                 linha = (16*" "+fr'"position":1'+(((-len(f"position:0")+31)))*' '+','+"\n")
-                filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+                filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
                 filedictarefas.write(linha)
                 #input("setando")
             else:
 
-                filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+                filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
                 filedictarefas.write(linha)
                 #input("continuando")
         filedictarefas.close()
