@@ -134,8 +134,8 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"siteMydict"          ,
-                "time":4841                     ,
-                "position":1                     ,
+                "time":7639                     ,
+                "position":0                     ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,
