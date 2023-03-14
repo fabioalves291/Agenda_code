@@ -129,13 +129,13 @@ def defdictarefas():
                 "tipo":"projetos"               ,
                 "materia":"Mydict"              ,
                 "time":2531                     ,
-                "position":1                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"siteMydict"          ,
                 "time":4841                     ,
-                "position":0                     ,
+                "position":1                     ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,

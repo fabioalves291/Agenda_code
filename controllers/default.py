@@ -116,11 +116,11 @@ def verificarmaterinotset():
     return listmateriasAserSetado
 
 def setarmateriazerada(listmateriasAserSetado):
-    filedictarefas = open("controllers/tarefas/dictarefas.py","r",encoding="UTF-8")
+    filedictarefas = open("tarefas/dictarefas.py","r",encoding="UTF-8")
     fileread = filedictarefas.readlines()
-    shutil.copyfile('controllers/tarefas/dictarefas.py','controllers/tarefas/dictarefasbackup.py' )
+    shutil.copyfile('tarefas/dictarefas.py','tarefas/dictarefasbackup.py' )
     filedictarefas.close()
-    filedictarefasapagar = open("controllers/tarefas/dictarefas.py","w");filedictarefasapagar.close()
+    filedictarefasapagar = open("tarefas/dictarefas.py","w");filedictarefasapagar.close()
 
     tipo = False;proximopositionseatr = False  
     for linha in fileread:
@@ -128,13 +128,13 @@ def setarmateriazerada(listmateriasAserSetado):
         #print(linha[23:-1])
         if "position" in linha and proximopositionseatr:
             linha = (16*" "+fr'"position":1'+(((-len(f'"position:1"')+31)))*' '+','+"\n")
-            filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+            filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
             filedictarefas.write(linha)
             filedictarefas.close()
             proximopositionseatr = False
         else:
             #print("escrevendo padrao")
-            filedictarefas = open("controllers/tarefas/dictarefas.py","a",encoding="UTF-8")
+            filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
             filedictarefas.write(linha)
             filedictarefas.close()
         tipovalor=(linha[23:-2].strip())
@@ -150,4 +150,4 @@ def setarmateriazerada(listmateriasAserSetado):
                 cont+=1
 
 def restartnodictarefas():
-    shutil.copyfile('controllers/tarefas/dictarefasdefault.py','controllers/tarefas/dictarefas.py' )
+    shutil.copyfile('tarefas/dictarefasdefault.py','tarefas/dictarefas.py' )
