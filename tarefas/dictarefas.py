@@ -104,8 +104,8 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":1826                        ,
-                "position":0                     ,
+                "time":5538                     ,
+                "position":1                   ,
                 },     
         },
 
@@ -113,14 +113,14 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
-                "time":3020                     ,
-                "position":1                     ,
+                "time":6516                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
                 "time":1                        ,
-                "position":0                     ,
+                "position":1                     ,
                 },         
         },
 
@@ -129,13 +129,13 @@ def defdictarefas():
                 "tipo":"projetos"               ,
                 "materia":"Mydict"              ,
                 "time":2531                     ,
-                "position":1                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"siteMydict"          ,
                 "time":4841                     ,
-                "position":0                     ,
+                "position":1                     ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,

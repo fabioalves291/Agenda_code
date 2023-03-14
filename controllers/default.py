@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import time
 import shutil
 import importlib
-import controllers.tarefas.dictarefas as dictarefas
+import tarefas.dictarefas as dictarefas
 
 def lerarquivo(endereço):
     linhaslist= list()

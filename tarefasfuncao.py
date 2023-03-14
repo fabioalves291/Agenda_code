@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import importlib
 from controllers.default import *
-import controllers.tarefas.dictarefas as dictarefas
+import tarefas.dictarefas as dictarefas
 import contestudando.contadorestudando  as contestudando
 
 

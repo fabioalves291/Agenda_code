@@ -1,4 +1,4 @@
-from tarefas import adicionartempomateria
+from tarefasfuncao import adicionartempomateria
 from controllers.default import *
 
 import os 

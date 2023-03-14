@@ -105,7 +105,7 @@ def defdictarefas():
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
                 "time":5538                     ,
-                "position":0                     ,
+                "position":1                   ,
                 },     
         },
 
@@ -113,14 +113,14 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
-                "time":3020                     ,
-                "position":1                     ,
+                "time":6516                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
                 "time":1                        ,
-                "position":0                     ,
+                "position":1                     ,
                 },         
         },
 

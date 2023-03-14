@@ -1,2 +1,2 @@
-from controllers.tarefas.dictarefas import *
+from tarefas.dictarefas import *
 import tarefas
