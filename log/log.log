@@ -1,0 +1,26 @@
+ERROR:root:name 'cont0' is not defined
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 14, in <module>
+    adicionartempomateria()
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\tarefasfuncao.py", line 19, in adicionartempomateria
+    print(cont0)
+          ^^^^^
+NameError: name 'cont0' is not defined
+ERROR:root:unsupported operand type(s) for -: 'dict' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 14, in <module>
+    adicionartempomateria()
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\tarefasfuncao.py", line 52, in adicionartempomateria
+    zerarcontarestudando(cont,tarefas)
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\controllers\default.py", line 146, in zerarcontarestudando
+    print(cont,len(tarefas-1))
+                   ~~~~~~~^~
+TypeError: unsupported operand type(s) for -: 'dict' and 'int'
+ERROR:root:cannot access local variable 'variaveldependete' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 14, in <module>
+    adicionartempomateria()
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\tarefasfuncao.py", line 55, in adicionartempomateria
+    zerarcontarestudando(cont,tarefas,variaveldependete)
+                                      ^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'variaveldependete' where it is not associated with a value
