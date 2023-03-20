@@ -13,7 +13,7 @@ def adicionartempomateria():
     tarefas = dictarefas.defdictarefas()
     cont=1
     for materiageralchave, materiageralvalor in tarefas.items():
-        variaveldependete= False
+        variaveldependetedocontador = False
         passouparaproximamateria    =    True
         importlib.reload(contestudando)
         #print(cont == contestudando.contadorestudando(),cont,contestudando.contadorestudando())
@@ -42,7 +42,7 @@ def adicionartempomateria():
                     file = open("contestudando/contadorestudando.py","w")
                     file.write(fr"def contadorestudando():contmateriaestudando = {cont+1}; return contmateriaestudando ")
                     file.close()
-                    variaveldependete= True
+                    variaveldependetedocontador = True
                     inputcontinuar = input(">> estudar proxima materia do ciclo?")
                     if inputcontinuar.lower() in"  simyes":
                         pass
@@ -50,7 +50,7 @@ def adicionartempomateria():
                         return False
 
                     break
-        zerarcontarestudando(cont,tarefas,variaveldependete)        
+        zerarcontarestudando(cont,tarefas,variaveldependetedocontador)        
         cont+=1
     #antes de zerar tem que ver se cont é igual ao maximo
         
