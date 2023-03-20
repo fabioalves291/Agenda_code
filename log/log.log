@@ -1,8 +1,0 @@
-ERROR:root:input expected at most 1 argument, got 2
-Traceback (most recent call last):
-  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 12, in <module>
-    print(verificarmaterinotset(),'ciclos finalizados')
-          ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\controllers\default.py", line 103, in verificarmaterinotset
-    input(tarefas[materiageralchave],len(tarefas[materiageralchave]))
-TypeError: input expected at most 1 argument, got 2
