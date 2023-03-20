@@ -47,9 +47,10 @@ def adicionartempomateria():
                         return False
 
                     break
+            zerarcontarestudando(cont,tarefas)
         cont+=1
     #antes de zerar tem que ver se cont é igual ao maximo
-    zerarcontarestudando(cont,tarefas)
+    
     
     
     
