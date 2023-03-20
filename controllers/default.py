@@ -142,5 +142,10 @@ def setarmateriazerada(listmateriasAserSetado):
                     del listmateriasAserSetado[cont]
                 cont+=1
 
+def zerarcontarestudando(cont,tarefas):
+    if cont >= len(tarefas):
+        file = open("contestudando/contadorestudando.py","w")
+        file.write(fr"def contadorestudando():contmateriaestudando = {0}; return contmateriaestudando ")
+        file.close()
 def restartnodictarefas():
     shutil.copyfile('tarefas/dictarefasdefault.py','tarefas/dictarefas.py' )

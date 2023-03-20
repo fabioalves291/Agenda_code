@@ -48,9 +48,9 @@ def adicionartempomateria():
 
                     break
         cont+=1
-    file = open("contestudando/contadorestudando.py","w")
-    file.write(fr"def contadorestudando():contmateriaestudando = {0}; return contmateriaestudando ")
-    file.close()
+    #antes de zerar tem que ver se cont é igual ao maximo
+    zerarcontarestudando(cont,tarefas)
+    
     
     
         
