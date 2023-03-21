@@ -81,7 +81,7 @@ def adicionarpositionmateria(materia):
                 linha = (16*" "+fr'"position":1'+(((-len(f"position:0")+31)))*' '+','+"\n")
                 filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
                 filedictarefas.write(linha)
-                #input("setando")
+                input("setando")
             else:
 
                 filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
