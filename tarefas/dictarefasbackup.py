@@ -123,18 +123,18 @@ def defdictarefas():
                 "position":1                     ,
                 },         
         },
-
+        #erro nome de materia  Mydict com siteMydict solucao foi colocar nomes de materrias diferentes
         "tarefa3":{
             "tarefa0":{
                 "tipo":"projetos"               ,
-                "materia":"Mydict"              ,
+                "materia":"Mydictapp"           ,
                 "time":3531                     ,
                 "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
-                "materia":"siteMydict"          ,
-                "time":4841                     ,
+                "materia":"SiteMydict"          ,
+                "time":7639                     ,
                 "position":0                     ,
                 },       
             "tarefa2":{
@@ -143,13 +143,13 @@ def defdictarefas():
                 "time":0                        ,
                 "position":1                     ,
                 },   
-            "tarefa2":{
+            "tarefa3":{
                 "tipo":"projetos"               ,
                 "materia":"SiteManiadeRenda"    ,
                 "time":0                        ,
                 "position":0                    ,          
                 },   
-            "tarefa2":{
+            "tarefa4":{
                 "tipo":"projetos"               ,
                 "materia":"Secret"              ,
                 "time":0                        ,

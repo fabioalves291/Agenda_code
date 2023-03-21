@@ -4,6 +4,9 @@ import shutil
 import importlib
 import tarefas.dictarefas as dictarefas
 
+class variavestexto():
+    inputrun="deseja estudar alguma materia especifica?\n>>"
+
 def adicionartempo(materia,temposomado,materiachave,materiageral):
     #time em segundos
     #print(materia,temposomado,materiachave,materiageral)

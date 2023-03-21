@@ -8,7 +8,9 @@ try:
     if __name__ == "__main__":
         while True:
             input("iniciando...")
-            input("deseja estudar alguma materia especifica?\n>>")
+            
+            if input("deseja estudar alguma materia especifica?\n>>").lower() in"  simyes":pass
+                        
             print(verificarmaterinotset(),'ciclos finalizados')
             setarmateriazerada(verificarmaterinotset())
             adicionartempomateria()
