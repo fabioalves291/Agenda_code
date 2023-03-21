@@ -2,9 +2,7 @@ from datetime import datetime, timedelta
 import importlib
 from controllers.default import *
 import tarefas.dictarefas as dictarefas
-import contestudando.contadorestudando  as contestudando
-
-
+import contestudando.contadorestudando as contestudando
 
 def adicionarmateriaespecifica():
     def auxilir(materia):
@@ -108,10 +106,3 @@ def adicionartempomateria():
         zerarcontarestudando(cont,tarefas,variaveldependetedocontador)        
         cont+=1
     #antes de zerar tem que ver se cont é igual ao maximo
-        
-    
-    
-    
-    
-        
-        
