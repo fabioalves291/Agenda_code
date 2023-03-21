@@ -140,14 +140,14 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
-                "time":0                        ,
-                "position":1                     ,
+                "time":16                       ,
+                "position":0                     ,
                 },   
             "tarefa3":{
                 "tipo":"projetos"               ,
                 "materia":"SiteManiadeRenda"    ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },   
             "tarefa4":{
                 "tipo":"projetos"               ,

@@ -9,7 +9,7 @@ try:
         while True:
             input(">> iniciando...")
             
-            if input(">> deseja estudar alguma materia especifica?\n>>").lower() in"  simyes":
+            if input(">> deseja estudar alguma materia especifica?\n>> ").lower() in"  simyes":
                 adicionarmateriaespecifica()
                         
             print(verificarmaterinotset(),'ciclos finalizados')

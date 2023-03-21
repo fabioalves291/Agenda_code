@@ -36,3 +36,18 @@ Traceback (most recent call last):
     adicionarmateriaespecifica()
     ^^^^^^^^^^^^^^^^^^^^^^^^^^
 NameError: name 'adicionarmateriaespecifica' is not defined
+ERROR:root:adicionartempomateria() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 17, in <module>
+    adicionartempomateria()
+TypeError: adicionartempomateria() missing 1 required positional argument: 'self'
+ERROR:root:'dict' object has no attribute 'lover'
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 13, in <module>
+    adicionarmateriaespecifica()
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\tarefasfuncao.py", line 59, in adicionarmateriaespecifica
+    auxilir(materia)
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\tarefasfuncao.py", line 24, in auxilir
+    print(materiavalor.lover(),materia.lover())
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'lover'
