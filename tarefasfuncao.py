@@ -20,7 +20,6 @@ def adicionarmateriaespecifica():
                 #print(materiavalor["materia"].lower(),materia.lower())
 
                 if materiavalor["materia"].lower() == materia.lower():
-                    input("testendado")
                     datainicial     = datetime.now()
                     print(materiavalor["materia"],"iniciou às",datainicial.now())
                     print("tempo estudado:",(int((int(materiavalor["time"]))/3600)),"horas e",int((float(materiavalor["time"])%3600)/60),"minutos")
@@ -53,11 +52,12 @@ def adicionarmateriaespecifica():
             zerarcontarestudando(cont,tarefas,variaveldependetedocontador)        
             cont+=1
         #antes de zerar tem que ver se cont é igual ao maximo
+        
+        return 0
     materia = input(">> qual materia vc quer estuda?\n>> ")
     auxilir(materia)
     print(">> saindo de materia especifica")
     return 0
-return 0
 def adicionartempomateria():
     importlib.reload(dictarefas)
     
