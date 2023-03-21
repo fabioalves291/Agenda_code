@@ -143,13 +143,13 @@ def defdictarefas():
                 "time":0                        ,
                 "position":1                     ,
                 },   
-            "tarefa2":{
+            "tarefa3":{
                 "tipo":"projetos"               ,
                 "materia":"SiteManiadeRenda"    ,
                 "time":0                        ,
                 "position":0                    ,          
                 },   
-            "tarefa2":{
+            "tarefa4":{
                 "tipo":"projetos"               ,
                 "materia":"Secret"              ,
                 "time":0                        ,

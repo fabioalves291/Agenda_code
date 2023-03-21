@@ -58,23 +58,23 @@ def adicionarpositionmateria(materia):
         positionzerado = True
         setaroproximo   =  False
         for linha in fileread:
-            #input(linha)
+            print(linha)
             #input(materia)
             if materia["tipo"] in linha:
                 encontroutipo = True
-                #print(linha[22:].replace(",",'').lstrip())
+                
             if str(materia["materia"]) in linha[22:]:
                 encontroumateria = True
             if  "position" in linha and positionzerado and encontroutipo and encontroumateria:
                 linha = (16*" "+fr'"position":0'+(((-len("position:0")+31)))*' '+','+"\n")
-                #input(linha)
+                
                 filedictarefas = open("tarefas/dictarefas.py","a",encoding="UTF-8")
                 filedictarefas.write(linha)
                 encontroumateria = False
                 encontroutipo   = False
                 positionzerado  = False
                 setaroproximo   =   True
-                #input("zerando")
+                input("zerando")
             elif setaroproximo and "position" in linha:
                 positionzerado  = False
                 setaroproximo   = False
