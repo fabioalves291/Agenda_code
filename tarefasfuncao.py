@@ -10,9 +10,7 @@ def adicionarmateriaespecifica():
     def auxilir(materia):
         #copia da funcao adicionartempomateria()
         importlib.reload(dictarefas)
-    
         #!!! registrar esse modulo (importlib.reload) no site e outras alternativas !!!
-        
         tarefas = dictarefas.defdictarefas()
         cont=1
         for materiageralchave, materiageralvalor in tarefas.items():
@@ -21,8 +19,9 @@ def adicionarmateriaespecifica():
             importlib.reload(contestudando)
             #print(cont == contestudando.contadorestudando(),cont,contestudando.contadorestudando())
             for materiachave, materiavalor in tarefas[materiageralchave].items():
-                print(materiavalor["materia"].lower(),materia.lower())
-                if materiavalor["materia"].lower() == materia.lower() and adicionarpositionmateria(materiavalor):
+                #print(materiavalor["materia"].lower(),materia.lower())
+
+                if materiavalor["materia"].lower() == materia.lower():
                     input("testendado")
                     datainicial     = datetime.now()
                     print(materiavalor["materia"],"iniciou às",datainicial.now())
@@ -58,7 +57,9 @@ def adicionarmateriaespecifica():
         #antes de zerar tem que ver se cont é igual ao maximo
     materia = input(">> qual materia vc quer estuda?\n>> ")
     auxilir(materia)
-    print("saindo de materia especifica")
+    print(">> saindo de materia especifica")
+    return 0
+return 0
 def adicionartempomateria():
     importlib.reload(dictarefas)
     
