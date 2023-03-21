@@ -5,6 +5,10 @@ import tarefas.dictarefas as dictarefas
 import contestudando.contadorestudando  as contestudando
 
 
+
+def adicionarmateriaespecifica():
+    materia = input(">> qual materia vc quer estuda?\n>>")
+
 def adicionartempomateria():
     importlib.reload(dictarefas)
     

@@ -24,3 +24,15 @@ Traceback (most recent call last):
     zerarcontarestudando(cont,tarefas,variaveldependete)
                                       ^^^^^^^^^^^^^^^^^
 UnboundLocalError: cannot access local variable 'variaveldependete' where it is not associated with a value
+ERROR:root:name 'adicionarmateriaespecifica' is not defined
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 13, in <module>
+    adicionarmateriaespecifica()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'adicionarmateriaespecifica' is not defined
+ERROR:root:name 'adicionarmateriaespecifica' is not defined
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 13, in <module>
+    adicionarmateriaespecifica()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'adicionarmateriaespecifica' is not defined
