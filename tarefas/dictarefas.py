@@ -169,7 +169,7 @@ def defdictarefas():
                 "tipo":"Linguas"               ,
                 "materia":"Inglês"    ,
                 "time":7500                     ,
-                "position":1                   ,
+                "position":0                     ,
                 }, 
         },
 

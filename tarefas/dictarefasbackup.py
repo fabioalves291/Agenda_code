@@ -121,7 +121,14 @@ def defdictarefas():
                 "materia":"assim falou zaratustra",
                 "time":1                        ,
                 "position":1                     ,
-                },         
+                },
+            "tarefa2":{
+                "tipo":"livros"                 ,
+                "materia":"python e orientacao a objetos",
+                "time":1                        ,
+                "position":0                     ,
+                },
+                   
         },
         #erro nome de materia  Mydict com siteMydict solucao foi colocar nomes de materrias diferentes
         "tarefa3":{
