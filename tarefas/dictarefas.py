@@ -34,14 +34,14 @@ def defdictarefas():
             "tarefa5":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Constitucional",
-                "time":0                        ,
-                "position":1                     ,
+                "time":2970                     ,
+                "position":0                     ,
                 }, 
             "tarefa6":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Penal",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },      
             "tarefa7":{
                 "tipo":"concurso"               ,
@@ -168,8 +168,8 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Linguas"               ,
                 "materia":"Inglês"    ,
-                "time":7500                     ,
-                "position":0                     ,
+                "time":10766                     ,
+                "position":1                   ,
                 }, 
         },
 

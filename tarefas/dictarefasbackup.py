@@ -35,13 +35,13 @@ def defdictarefas():
                 "tipo":"concurso"               ,
                 "materia":"Direito Constitucional",
                 "time":0                        ,
-                "position":1                     ,
+                "position":0                     ,
                 }, 
             "tarefa6":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Penal",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },      
             "tarefa7":{
                 "tipo":"concurso"               ,
@@ -168,7 +168,7 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Linguas"               ,
                 "materia":"Inglês"    ,
-                "time":7500                     ,
+                "time":10766                     ,
                 "position":1                   ,
                 }, 
         },
