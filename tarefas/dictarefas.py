@@ -105,7 +105,7 @@ def defdictarefas():
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
                 "time":5538                     ,
-                "position":1                   ,
+                "position":1                    ,
                 },     
         },
 
@@ -114,13 +114,13 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
                 "time":6516                     ,
-                "position":0                     ,
+                "position":0                    ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
                 "time":1                        ,
-                "position":1                     ,
+                "position":1                    ,
                 },
             "tarefa2":{
                 "tipo":"livros"                 ,
@@ -136,25 +136,25 @@ def defdictarefas():
                 "tipo":"projetos"               ,
                 "materia":"Mydictapp"           ,
                 "time":3531                     ,
-                "position":0                     ,
+                "position":0                    ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"SiteMydict"          ,
                 "time":7639                     ,
-                "position":0                     ,
+                "position":0                    ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
                 "time":16                       ,
-                "position":0                     ,
+                "position":0                    ,
                 },   
             "tarefa3":{
                 "tipo":"projetos"               ,
                 "materia":"SiteManiadeRenda"    ,
                 "time":0                        ,
-                "position":1                     ,
+                "position":1                    ,
                 },   
             "tarefa4":{
                 "tipo":"projetos"               ,
@@ -166,10 +166,18 @@ def defdictarefas():
         },
         "tarefa4":{
             "tarefa1":{
-                "tipo":"Linguas"               ,
-                "materia":"Inglês"    ,
-                "time":10766                     ,
-                "position":1                   ,
+                "tipo":"Linguas"                ,
+                "materia":"Inglês"              ,
+                "time":10766                    ,
+                "position":1                    ,
+                }, 
+        },
+        "tarefa5":{
+            "tarefa1":{
+                "tipo":"Programação"            ,
+                "materia":"react"               ,
+                "time":38                       ,
+                "position":1                    ,
                 }, 
         },
 
