@@ -4,6 +4,9 @@ import shutil
 import importlib
 import tarefas.dictarefas as dictarefas
 
+endereçobancodepalavras="/tarefas/dictarefas.py"
+endereçobancodefrases="/tarefas/dictarefasFrases.py"
+
 class variavestexto():
     inputrun="deseja estudar alguma materia especifica?\n>>"
 
