@@ -148,6 +148,8 @@ def setarmateriazerada(listmateriasAserSetado):
                 cont+=1
 
 def zerarcontarestudando(cont,tarefas, variaveldependete):
+    print(cont >= len(tarefas),cont,len(tarefas))
+    print(variaveldependete)
     if cont >= len(tarefas) and variaveldependete :
         file = open("contestudando/contadorestudando.py","w")
         file.write(fr"def contadorestudando():contmateriaestudando = {1}; return contmateriaestudando ")

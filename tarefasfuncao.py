@@ -38,9 +38,6 @@ def adicionarmateriaespecifica():
                     print("Estudou",tempodeestudo,"\n")
                     tempoestudseg   = int(tempodeestudo.total_seconds())
                     adicionartempo(materiavalor,tempoestudseg,materiachave,materiageralchave)
-                    file = open("contestudando/contadorestudando.py","w")
-                    file.write(fr"def contadorestudando():contmateriaestudando = {cont+1}; return contmateriaestudando ")
-                    file.close()
                     variaveldependetedocontador = True
                     inputcontinuar = input(">> estudar proxima materia do ciclo?")
                     if inputcontinuar.lower() in"  simyes":
