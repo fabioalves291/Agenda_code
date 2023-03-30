@@ -40,7 +40,7 @@ def defdictarefas():
             "tarefa6":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Penal",
-                "time":0                        ,
+                "time":1852                     ,
                 "position":0                     ,
                 },      
             "tarefa7":{
@@ -105,7 +105,7 @@ def defdictarefas():
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
                 "time":5538                     ,
-                "position":1                    ,
+                "position":0                     ,
                 },     
         },
 
