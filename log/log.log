@@ -1,0 +1,11 @@
+ERROR:root:
+Traceback (most recent call last):
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\run.py", line 17, in <module>
+    adicionartempomateria()
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\tarefasfuncao.py", line 73, in adicionartempomateria
+    if adicionarpositionmateria(materiavalor):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\js\Documents\area\estudar\areadetrabalho\git\agenda\controllers\default.py", line 48, in adicionarpositionmateria
+    inputcontinuar= input(">> iniciar estudo da materia tipo "+materia["tipo"]+" topico "+materia["materia"]+':')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError

@@ -46,14 +46,14 @@ def defdictarefas():
             "tarefa7":{
                 "tipo":"concurso"               ,
                 "materia":"Processual penal",
-                "time":0                        ,
-                "position":1                     ,
+                "time":4511                     ,
+                "position":0                     ,
                 },
             "tarefa8":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Militar"     ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },
             "tarefa9":{
                 "tipo":"concurso"               ,
@@ -105,7 +105,7 @@ def defdictarefas():
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
                 "time":10659                     ,
-                "position":0                     ,
+                "position":1                   ,
                 },     
         },
 
@@ -119,14 +119,14 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
-                "time":1                        ,
-                "position":1                    ,
+                "time":6                        ,
+                "position":0                     ,
                 },
             "tarefa2":{
                 "tipo":"livros"                 ,
                 "materia":"python e orientacao a objetos",
                 "time":1                        ,
-                "position":0                     ,
+                "position":1                     ,
                 },
                    
         },
@@ -153,31 +153,24 @@ def defdictarefas():
             "tarefa3":{
                 "tipo":"projetos"               ,
                 "materia":"SiteManiadeRenda"    ,
-                "time":0                        ,
-                "position":1                    ,
-                },   
-            "tarefa4":{
-                "tipo":"projetos"               ,
-                "materia":"Secret"              ,
-                "time":0                        ,
-                "position":0                    ,          
-                }, 
-            
+                "time":1                        ,
+                "position":0                     ,
+                },    
         },
         "tarefa4":{
             "tarefa1":{
                 "tipo":"Linguas"                ,
                 "materia":"Inglês"              ,
-                "time":10766                    ,
-                "position":1                    ,
+                "time":10766                        ,
+                "position":1                   ,
                 }, 
         },
         "tarefa5":{
             "tarefa1":{
                 "tipo":"Programação"            ,
                 "materia":"react"               ,
-                "time":10248                    ,
-                "position":1                    ,
+                "time":10248                        ,
+                "position":1                   ,
                 }, 
         },
 
