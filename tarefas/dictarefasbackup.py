@@ -46,7 +46,7 @@ def defdictarefas():
             "tarefa7":{
                 "tipo":"concurso"               ,
                 "materia":"Processual penal",
-                "time":0                        ,
+                "time":4511                     ,
                 "position":0                     ,
                 },
             "tarefa8":{
@@ -104,7 +104,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":10659                     ,
+                "time":11327                      ,
                 "position":1                   ,
                 },     
         },
@@ -126,7 +126,7 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"python e orientacao a objetos",
                 "time":1                        ,
-                "position":1                     ,
+                "position":0                     ,
                 },
                    
         },
@@ -136,7 +136,7 @@ def defdictarefas():
                 "tipo":"projetos"               ,
                 "materia":"Mydictapp"           ,
                 "time":3531                     ,
-                "position":0                    ,
+                "position":1                   ,
                 }, 
             "tarefa1":{
                 "tipo":"projetos"               ,
