@@ -114,7 +114,7 @@ def defdictarefas():
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
                 "time":6516                     ,
-                "position":0                    ,
+                "position":1                   ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
@@ -125,7 +125,7 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"livros"                 ,
                 "materia":"python e orientacao a objetos",
-                "time":1                        ,
+                "time":4726                     ,
                 "position":0                     ,
                 },
                    
