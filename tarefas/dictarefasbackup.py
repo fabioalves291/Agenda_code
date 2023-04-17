@@ -53,13 +53,13 @@ def defdictarefas():
                 "tipo":"concurso"               ,
                 "materia":"Direito Militar"     ,
                 "time":0                        ,
-                "position":1                     ,
+                "position":0                     ,
                 },
             "tarefa9":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Admnistrativo",
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },  
             "tarefa10":{
                 "tipo":"concurso"               ,
@@ -130,7 +130,7 @@ def defdictarefas():
                 },
                    
         },
-        #erro nome de materia  Mydict com siteMydict solucao foi colocar nomes de materrias diferentes
+        # erro nome de materia  Mydict com siteMydict solucao foi colocar nomes de materrias diferentes
         "tarefa3":{
             "tarefa0":{
                 "tipo":"projetos"               ,
@@ -169,7 +169,7 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Programação"            ,
                 "materia":"react"               ,
-                "time":10248                        ,
+                "time":14498                     ,
                 "position":1                   ,
                 }, 
         },
