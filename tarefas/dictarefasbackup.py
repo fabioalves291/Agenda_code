@@ -52,7 +52,7 @@ def defdictarefas():
             "tarefa8":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Militar"     ,
-                "time":0                        ,
+                "time":2320                     ,
                 "position":0                     ,
                 },
             "tarefa9":{
@@ -104,7 +104,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":50497                    ,
+                "time":53900                     ,
                 "position":1                   ,
                 },     
         },
