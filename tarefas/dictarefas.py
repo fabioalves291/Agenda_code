@@ -113,14 +113,14 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"livros"                 ,
                 "materia":"Informatica"         ,
-                "time":6516                     ,
-                "position":1                   ,
+                "time":9981                     ,
+                "position":0                     ,
                 }, 
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
                 "time":6                        ,
-                "position":0                     ,
+                "position":1                     ,
                 },
             "tarefa2":{
                 "tipo":"livros"                 ,
@@ -141,14 +141,14 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"SiteMydict"          ,
-                "time":7639                     ,
-                "position":1                     ,
+                "time":11883                     ,
+                "position":0                     ,
                 },       
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
                 "time":16                       ,
-                "position":0                    ,
+                "position":1                     ,
                 },   
             "tarefa3":{
                 "tipo":"projetos"               ,
