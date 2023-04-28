@@ -161,8 +161,8 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Linguas"                ,
                 "materia":"Inglês"              ,
-                "time":10766                        ,
-                "position":1                   ,
+                "time":17958                     ,
+                "position":0                     ,
                 }, 
         },
         "tarefa5":{
