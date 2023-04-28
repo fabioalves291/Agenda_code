@@ -162,7 +162,7 @@ def defdictarefas():
                 "tipo":"Linguas"                ,
                 "materia":"Inglês"              ,
                 "time":10766                        ,
-                "position":1                   ,
+                "position":0                     ,
                 }, 
         },
         "tarefa5":{
