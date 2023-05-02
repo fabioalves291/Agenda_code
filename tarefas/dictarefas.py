@@ -162,7 +162,7 @@ def defdictarefas():
                 "tipo":"Linguas"                ,
                 "materia":"Inglês"              ,
                 "time":17958                     ,
-                "position":0                     ,
+                "position":1                   ,
                 }, 
         },
         "tarefa5":{
@@ -170,7 +170,7 @@ def defdictarefas():
                 "tipo":"Programação"            ,
                 "materia":"react"               ,
                 "time":14498                     ,
-                "position":0                     ,
+                "position":1                   ,
                 }, 
         },
 
