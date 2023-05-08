@@ -59,13 +59,13 @@ def defdictarefas():
                 "tipo":"concurso"               ,
                 "materia":"Direito Admnistrativo",
                 "time":0                        ,
-                "position":1                     ,
+                "position":0                     ,
                 },  
             "tarefa10":{
                 "tipo":"concurso"               ,
                 "materia":"Medicina Legal"      ,
                 "time":0                        ,
-                "position":0                    ,          
+                "position":1                     ,
                 },
             "tarefa11":{
                 "tipo":"concurso"               ,
@@ -104,7 +104,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":55726                     ,
+                "time":74484                    ,
                 "position":1                   ,
                 },     
         },
@@ -170,7 +170,7 @@ def defdictarefas():
                 "tipo":"Programação"            ,
                 "materia":"react"               ,
                 "time":35690                    ,
-                "position":0                     ,
+                "position":1                   ,
                 }, 
         },
 
