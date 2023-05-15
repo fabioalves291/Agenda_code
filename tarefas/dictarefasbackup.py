@@ -58,7 +58,7 @@ def defdictarefas():
             "tarefa9":{
                 "tipo":"concurso"               ,
                 "materia":"Direito Admnistrativo",
-                "time":0                        ,
+                "time":1754                     ,
                 "position":0                     ,
                 },  
             "tarefa10":{
@@ -104,7 +104,7 @@ def defdictarefas():
             "tarefa0":{
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
-                "time":74484                    ,
+                "time":78201                     ,
                 "position":1                   ,
                 },     
         },
