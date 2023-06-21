@@ -105,7 +105,7 @@ def defdictarefas():
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
                 "time":82263                     ,
-                "position":1                   ,
+                "position":0                     ,
                 },     
         },
 
@@ -141,7 +141,7 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"projetos"               ,
                 "materia":"SiteMydict"          ,
-                "time":28690                     ,
+                "time":38786                      ,
                 "position":0                     ,
                 },       
             "tarefa2":{
