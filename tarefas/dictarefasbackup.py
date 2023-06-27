@@ -105,7 +105,7 @@ def defdictarefas():
                 "tipo":"materias da escola"     ,
                 "materia":"generica"            ,
                 "time":82263                     ,
-                "position":1                   ,
+                "position":0                     ,
                 },     
         },
 
