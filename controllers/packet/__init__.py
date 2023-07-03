@@ -1,0 +1,1 @@
+from controllers.tarefas.dictarefas import *

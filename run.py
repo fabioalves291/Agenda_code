@@ -1,14 +1,17 @@
 #! python3.10
-from tarefasfuncao import adicionartempomateria,adicionarmateriaespecifica
+from controllers.tarefasfuncao import adicionartempomateria,adicionarmateriaespecifica
 from controllers.default import *
 import logging
+import datetime
 import os 
 
 if __name__ == "__main__":
     while True:
         try:
-            input(">> iniciando...") 
+            print(">> iniciando...") 
+            time.sleep(2)
             
+    
             if input(">> deseja estudar alguma materia especifica?\n>> ").lower() in"  simyes":
                 adicionarmateriaespecifica()
                         
@@ -20,7 +23,7 @@ if __name__ == "__main__":
             print(e)
             logging.basicConfig(filename="log/log.log",level=logging.DEBUG,filemode="a")
             logger = logging.getLogger()
-            logger.exception(str(e))
+            logger.exception("date:"+str(datetime.datetime.now)+"erro:\n"+str(e))
 
     
 

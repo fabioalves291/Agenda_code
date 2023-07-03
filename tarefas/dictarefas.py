@@ -119,14 +119,14 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"livros"                 ,
                 "materia":"assim falou zaratustra",
-                "time":6                        ,
-                "position":1                     ,
+                "time":3084                     ,
+                "position":0                     ,
                 },
             "tarefa2":{
                 "tipo":"livros"                 ,
                 "materia":"python e orientacao a objetos",
                 "time":4726                     ,
-                "position":0                     ,
+                "position":1                     ,
                 },
                    
         },
@@ -147,14 +147,14 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
-                "time":16                       ,
-                "position":1                     ,
+                "time":5138                     ,
+                "position":0                     ,
                 },   
             "tarefa3":{
                 "tipo":"projetos"               ,
                 "materia":"SiteManiadeRenda"    ,
                 "time":1                        ,
-                "position":0                     ,
+                "position":1                     ,
                 },    
         },
         "tarefa4":{
