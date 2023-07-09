@@ -169,7 +169,7 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Programação"            ,
                 "materia":"react"               ,
-                "time":35690                    ,
+                "time":37004                     ,
                 "position":0                     ,
                 }, 
         },
