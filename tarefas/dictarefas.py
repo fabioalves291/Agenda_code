@@ -147,7 +147,7 @@ def defdictarefas():
             "tarefa2":{
                 "tipo":"projetos"               ,
                 "materia":"Calendario-agenda"   ,
-                "time":5138                     ,
+                "time":8055                     ,
                 "position":0                     ,
                 },   
             "tarefa3":{
@@ -169,8 +169,14 @@ def defdictarefas():
             "tarefa1":{
                 "tipo":"Programação"            ,
                 "materia":"react"               ,
-                "time":37004                     ,
+                "time":13618                    ,
                 "position":1                   ,
+                },
+            "tarefa1":{
+                "tipo":"Programação"            ,
+                "materia":"c"                   ,
+                "time":13618                    ,
+                "position":0                   ,
                 }, 
         },
 

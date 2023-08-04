@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 import importlib
+import os.path
 from controllers.default import *
 import tarefas.dictarefas as dictarefas
 import contestudando.contadorestudando as contestudando
@@ -103,3 +104,17 @@ def adicionartempomateria():
         zerarcontarestudando(cont,tarefas,variaveldependetedocontador)        
         cont+=1
     #antes de zerar tem que ver se cont é igual ao maximo
+def adicionarmateriajson():
+    #trocar por var de aruquivo default
+    boolfile = os.path.isfile(('tarefas/dictarefas.py'))
+    # criar verificação de tamanho para criar outro arquivo caso passe do tamanho delimitado 500 mb
+    if boolfile:
+        file = open("tarefas/dictarefas.py","a")
+        stgfile = file.read()
+
+        
+def adicionartempomateriajson():
+    #trocar por var de aruquivo default
+    boolfile = os.path.isfile(('tarefas/dictarefas.py'))
+    if boolfile:
+        pass
